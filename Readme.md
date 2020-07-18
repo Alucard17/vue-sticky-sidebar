@@ -1,4 +1,4 @@
-# Vue.js component implementing the [sticky-sidebar](https://abouolia.github.io/sticky-sidebar/) library.
+# Vue.js component implementing the [sticky-sidebar-v2](https://github.com/blixhavn/sticky-sidebar-v2) library.
 [![NPM](https://nodei.co/npm/vue-sticky-sidebar.png)](https://nodei.co/npm/vue-sticky-sidebar/)
 
 ## Installation
@@ -61,6 +61,6 @@ export default {
 | resizeSensor        |  Boolean           |  true                    | Detect when sidebar and its container change height so re-calculate their dimensions. |
 | minWidth            |  Numeric           |   0                      | The sidebar returns to its normal position if its width below this value.             |
 
-Find more reference at official [sticky-sidebar](https://abouolia.github.io/sticky-sidebar/).
+Find more reference at official [sticky-sidebar-v2](https://github.com/blixhavn/sticky-sidebar-v2).
 ## Todo
 - Add Events

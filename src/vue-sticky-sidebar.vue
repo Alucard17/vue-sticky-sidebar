@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import StickySidebar from "sticky-sidebar";
+import StickySidebar from "sticky-sidebar-v2";
 export default {
   name: "vue-sticky-sidebar",
   props: {
