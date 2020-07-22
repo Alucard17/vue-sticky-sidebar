@@ -18,17 +18,9 @@ var script = {
       type: [String, Boolean],
       default: false
     },
-    innerWrapperSelector: {
-      type: String,
-      default: ".inner-wrapper-sticky"
-    },
     stickyClass: {
       type: [String, Boolean],
       default: false
-    },
-    resizeSensor: {
-      type: Boolean,
-      default: true
     },
     minWidth: {
       type: Number,
@@ -45,9 +37,8 @@ var script = {
       topSpacing: this.topSpacing,
       bottomSpacing: this.bottomSpacing,
       containerSelector: this.containerSelector,
-      innerWrapperSelector: this.innerWrapperSelector,
+      innerWrapperSelector: '.inner-wrapper-sticky',
       stickyClass: this.stickyClass,
-      resizeSensor: true,
       minWidth: this.minWidth
     });
   }
@@ -137,7 +128,7 @@ var __vue_render__ = function __vue_render__() {
 
   return _c('div', {
     ref: "stickySidebar"
-  }, [_vm._ssrNode("<div class=\"sidebar__inner\">", "</div>", [_vm._t("default")], 2)]);
+  }, [_vm._ssrNode("<div class=\"inner-wrapper-sticky\">", "</div>", [_vm._t("default")], 2)]);
 };
 
 var __vue_staticRenderFns__ = [];
@@ -149,7 +140,7 @@ var __vue_inject_styles__ = undefined;
 var __vue_scope_id__ = undefined;
 /* module identifier */
 
-var __vue_module_identifier__ = "data-v-b18192ce";
+var __vue_module_identifier__ = "data-v-458823f6";
 /* functional template */
 
 var __vue_is_functional_template__ = false;

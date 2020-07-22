@@ -1,6 +1,6 @@
 {
   "name": "vue-sticky-sidebar",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "author": {
     "name": "Karan Yadav",
     "email": "kyadav510@gmail.com",
@@ -28,7 +28,7 @@
     "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife"
   },
   "dependencies": {
-    "sticky-sidebar-v2": "^1.0.1"
+    "sticky-sidebar-v2": "https://github.com/Alucard17/sticky-sidebar-v2"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",

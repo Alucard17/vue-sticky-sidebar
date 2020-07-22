@@ -1,6 +1,6 @@
 <template>
   <div ref="stickySidebar">
-    <div class="sidebar__inner">
+    <div class="inner-wrapper-sticky">
       <slot></slot>
     </div>
   </div>
@@ -8,7 +8,6 @@
 
 <script>
 import StickySidebar from "sticky-sidebar-v2";
-import './ResizeSensor.js';
 
 export default {
   name: "vue-sticky-sidebar",
@@ -29,17 +28,9 @@ export default {
       type: [String, Boolean],
       default: false
     },
-    innerWrapperSelector: {
-      type: String,
-      default: ".inner-wrapper-sticky"
-    },
     stickyClass: {
       type: [String, Boolean],
       default: false
-    },
-    resizeSensor: {
-      type: Boolean,
-      default: true
     },
     minWidth: {
       type: Number,
@@ -56,9 +47,8 @@ export default {
       topSpacing: this.topSpacing,
       bottomSpacing: this.bottomSpacing,
       containerSelector: this.containerSelector,
-      innerWrapperSelector: this.innerWrapperSelector,
+      innerWrapperSelector: '.inner-wrapper-sticky',
       stickyClass: this.stickyClass,
-      resizeSensor: true,
       minWidth: this.minWidth
     });
   }

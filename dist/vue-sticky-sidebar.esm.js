@@ -20,17 +20,9 @@ var script = {
       type: [String, Boolean],
       default: false
     },
-    innerWrapperSelector: {
-      type: String,
-      default: ".inner-wrapper-sticky"
-    },
     stickyClass: {
       type: [String, Boolean],
       default: false
-    },
-    resizeSensor: {
-      type: Boolean,
-      default: true
     },
     minWidth: {
       type: Number,
@@ -49,9 +41,8 @@ var script = {
       topSpacing: this.topSpacing,
       bottomSpacing: this.bottomSpacing,
       containerSelector: this.containerSelector,
-      innerWrapperSelector: this.innerWrapperSelector,
+      innerWrapperSelector: '.inner-wrapper-sticky',
       stickyClass: this.stickyClass,
-      resizeSensor: true,
       minWidth: this.minWidth
     });
   }
@@ -147,7 +138,7 @@ var __vue_render__ = function () {
   return _c('div', {
     ref: "stickySidebar"
   }, [_c('div', {
-    staticClass: "sidebar__inner"
+    staticClass: "inner-wrapper-sticky"
   }, [_vm._t("default")], 2)]);
 };
 
