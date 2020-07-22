@@ -8,6 +8,8 @@
 
 <script>
 import StickySidebar from "sticky-sidebar-v2";
+import './ResizeSensor.js';
+
 export default {
   name: "vue-sticky-sidebar",
   props: {
@@ -56,7 +58,7 @@ export default {
       containerSelector: this.containerSelector,
       innerWrapperSelector: this.innerWrapperSelector,
       stickyClass: this.stickyClass,
-      resizeSensor: this.resizeSensor,
+      resizeSensor: true,
       minWidth: this.minWidth
     });
   }

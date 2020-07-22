@@ -7,6 +7,11 @@
     "url": "https://github.com/alucard17"
   },
   "description": "Vue.js component implementing the sticky-sidebar library.",
+  "repository": {
+    "url": "https://github.com/Alucard17/vue-sticky-sidebar.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/Alucard17/vue-sticky-sidebar#readme",
   "main": "dist/vue-sticky-sidebar.ssr.js",
   "browser": "dist/vue-sticky-sidebar.esm.js",
   "module": "dist/vue-sticky-sidebar.esm.js",
