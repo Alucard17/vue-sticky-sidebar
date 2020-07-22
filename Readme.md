@@ -1,5 +1,8 @@
 ## Vue.js component implementing the [sticky-sidebar-v2](https://github.com/blixhavn/sticky-sidebar-v2) library.
-[![NPM](https://nodei.co/npm/vue-sticky-sidebar.png)](https://nodei.co/npm/vue-sticky-sidebar/)
+![Version](https://badgen.net/npm/v/vue-sticky-sidebar)
+![Downloads/Week](https://badgen.net/npm/dw/vue-sticky-sidebar)
+![Minified Bundlesize](https://badgen.net/bundlephobia/min/vue-sticky-sidebar)
+![Minified Gzipped Bundlesize](https://badgen.net/bundlephobia/minzip/vue-sticky-sidebar)
 
 ## Installation
 Using npm:

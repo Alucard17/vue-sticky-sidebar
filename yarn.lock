@@ -7278,6 +7278,11 @@ static-extend@^0.1.1:
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
 
+sticky-sidebar-v2@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/sticky-sidebar-v2/-/sticky-sidebar-v2-1.0.1.tgz#e85395b735b1b9c84206982af80bdcc0c7040e7d"
+  integrity sha512-1pcoWoX6YvwC27XV0iaBEVz7TsoMxhfjMtuI4BKSHaebXGtT0DrVaagGCkzkmaIeVEZ2W9uffEXcP+4yEWmXgg==
+
 sticky-sidebar@^3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/sticky-sidebar/-/sticky-sidebar-3.3.1.tgz#142bf6b64c2b416e4b707ebf8f09b8b5a5043877"
