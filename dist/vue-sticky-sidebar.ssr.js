@@ -47,7 +47,7 @@ var script = {
       containerSelector: this.containerSelector,
       innerWrapperSelector: this.innerWrapperSelector,
       stickyClass: this.stickyClass,
-      resizeSensor: this.resizeSensor,
+      resizeSensor: true,
       minWidth: this.minWidth
     });
   }
@@ -149,7 +149,7 @@ var __vue_inject_styles__ = undefined;
 var __vue_scope_id__ = undefined;
 /* module identifier */
 
-var __vue_module_identifier__ = "data-v-676d1153";
+var __vue_module_identifier__ = "data-v-b18192ce";
 /* functional template */
 
 var __vue_is_functional_template__ = false;

@@ -51,7 +51,7 @@ var script = {
       containerSelector: this.containerSelector,
       innerWrapperSelector: this.innerWrapperSelector,
       stickyClass: this.stickyClass,
-      resizeSensor: this.resizeSensor,
+      resizeSensor: true,
       minWidth: this.minWidth
     });
   }
