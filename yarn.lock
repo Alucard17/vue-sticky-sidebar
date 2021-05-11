@@ -3985,9 +3985,9 @@ hoopy@^0.1.4:
   integrity sha512-HRcs+2mr52W0K+x8RzcLzuPPmVIKMSv97RGHy0Ea9y/mpcaK+xTrjICA04KAHi4GRzxliNqNJEFYWHghy3rSfQ==
 
 hosted-git-info@^2.1.4:
-  version "2.8.8"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.8.tgz#7539bd4bc1e0e0a895815a2e0262420b12858488"
-  integrity sha512-f/wzC2QaWBs7t9IYqB4T3sR1xviIViXJRJTWBlx2Gf3g0Xi5vI7Yy4koXQ1c9OYDGHN9sBy1DQ2AB8fqZBWhUg==
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 hpack.js@^2.1.6:
   version "2.1.6"
@@ -7278,15 +7278,10 @@ static-extend@^0.1.1:
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
 
-sticky-sidebar-v2@^1.0.1:
+"sticky-sidebar-v2@https://github.com/Alucard17/sticky-sidebar-v2":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/sticky-sidebar-v2/-/sticky-sidebar-v2-1.0.1.tgz#e85395b735b1b9c84206982af80bdcc0c7040e7d"
-  integrity sha512-1pcoWoX6YvwC27XV0iaBEVz7TsoMxhfjMtuI4BKSHaebXGtT0DrVaagGCkzkmaIeVEZ2W9uffEXcP+4yEWmXgg==
-
-sticky-sidebar@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/sticky-sidebar/-/sticky-sidebar-3.3.1.tgz#142bf6b64c2b416e4b707ebf8f09b8b5a5043877"
-  integrity sha1-FCv2tkwrQW5LcH6/jwm4taUEOHc=
+  uid acd8ea6cffb2cfdaae06c59acf292288714a92f1
+  resolved "https://github.com/Alucard17/sticky-sidebar-v2#acd8ea6cffb2cfdaae06c59acf292288714a92f1"
 
 stream-browserify@^2.0.1:
   version "2.0.2"
