@@ -7278,15 +7278,10 @@ static-extend@^0.1.1:
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
 
-sticky-sidebar-v2@^1.0.1:
+"sticky-sidebar-v2@https://github.com/Alucard17/sticky-sidebar-v2":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/sticky-sidebar-v2/-/sticky-sidebar-v2-1.0.1.tgz#e85395b735b1b9c84206982af80bdcc0c7040e7d"
-  integrity sha512-1pcoWoX6YvwC27XV0iaBEVz7TsoMxhfjMtuI4BKSHaebXGtT0DrVaagGCkzkmaIeVEZ2W9uffEXcP+4yEWmXgg==
-
-sticky-sidebar@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/sticky-sidebar/-/sticky-sidebar-3.3.1.tgz#142bf6b64c2b416e4b707ebf8f09b8b5a5043877"
-  integrity sha1-FCv2tkwrQW5LcH6/jwm4taUEOHc=
+  uid acd8ea6cffb2cfdaae06c59acf292288714a92f1
+  resolved "https://github.com/Alucard17/sticky-sidebar-v2#acd8ea6cffb2cfdaae06c59acf292288714a92f1"
 
 stream-browserify@^2.0.1:
   version "2.0.2"
@@ -8257,9 +8252,9 @@ wrappy@1:
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
 ws@^6.0.0, ws@^6.2.1:
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-6.2.1.tgz#442fdf0a47ed64f59b6a5d8ff130f4748ed524fb"
-  integrity sha512-GIyAXC2cB7LjvpgMt9EKS2ldqr0MTrORaleiOno6TweZ6r3TKtoFQWay/2PceJ3RuBasOHzXNn5Lrw1X0bEjqA==
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-6.2.2.tgz#dd5cdbd57a9979916097652d78f1cc5faea0c32e"
+  integrity sha512-zmhltoSR8u1cnDsD43TX59mzoMZsLKqUweyYBAIvTngR3shc0W6aOZylZmq/7hqyVxPdi+5Ud2QInblgyE72fw==
   dependencies:
     async-limiter "~1.0.0"
 
